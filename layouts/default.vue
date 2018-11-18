@@ -2,9 +2,12 @@
   <div class="page-wrapper">
     <header class="main-header">
       <div class="header-logo">
-        <img 
-          src="/logo/logo.png" 
-          alt="Logo To-Do or not To-Do?">
+        <router-link 
+          :to="{ name: 'index' }">
+          <img 
+            src="/logo/logo.png" 
+            alt="Logo To-Do or not To-Do?">
+        </router-link>
       </div>
       <nav class="header-menu">
         <router-link 
